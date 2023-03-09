@@ -1,0 +1,39 @@
+.add-product-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .add-product-page input[type="text"] {
+    width: 100%;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-product-page select {
+    width: 100%;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-product-page button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-product-page button:hover {
+    background-color: #0069d9;
+  }
+  
